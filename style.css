@@ -355,7 +355,7 @@ main{
 
 }
 
-.wallet-table--container .up{
+.wallet-table--container .up{ 
     display: inline-block;
     width: 1.1rem;
     height: 0.6rem;
@@ -387,4 +387,112 @@ main{
 
 .wallet-table--date p > b{
     font-weight: bold;
+}
+
+/*----------------------------------------------------------------*/
+
+.main-product-detail{
+    background-color: var(--warm-black);
+    margin: 0 auto;
+}
+
+.main-product-detail .product-detail--title {
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.main-product-detail .product-detail--title h2 {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--just-white);
+}
+
+.main-product-detail .product-detail--title p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+    margin-top: 2rem;
+}
+
+.product-cards--container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.product-detail--card{
+    width: 80%;
+    max-width: 400px;
+    min-width: 250px;
+    height: 142px;
+    border-radius: 4px;
+    background-color: var(--black);
+    margin-bottom: 2rem;
+    padding: 10px 20px;
+    
+}
+
+.product-detail--card .product--card-title{
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    color: var(--just-white);
+    margin-bottom: 10px;
+}
+
+.product-detail--card .product--card-body{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    color: #808080;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+
+.product-detail--card .icon {
+    margin-top: 10px;
+    display: inline-block; 
+    width: 3px;
+    height: 1.5px;
+    margin-bottom: 7px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+.product-detail--card .clock-icon {
+    background-image: url("./assets/icons/clock.svg");
+}
+.product-detail--card .eye-icon {
+    background-image: url("./assets/icons/eye.svg");
+}
+.product-detail--card .money-icon {
+    background-image: url("./assets/icons/dollar-sign.svg");
+}
+.product-detail--card .valid-icon {
+    background-image: url("./assets/icons/check-circle.svg");
+}
+
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("./assets/img/bitcoinbaby2x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bitcoin-img-container h2{
+    padding-top: 6rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
 }
